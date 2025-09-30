@@ -1,0 +1,432 @@
+
+
+#header 
+{
+  width: 100%;
+  padding:20px;
+  /* background-color: rgb(46, 43, 87); */
+   background-color: #2c3e50;
+  text-align: center;
+}
+
+#header h1 
+{
+  color: rgb(132, 146, 152);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footer
+{
+  width: 100%;
+  height: 50px;
+  background-color: lightblue;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  line-height: 2;
+  color: gray;
+}
+
+#myform
+{
+  width: 400px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#admindata
+{
+  padding: 10px;
+  /* background-color: rgb(83, 83, 121); */
+   background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logoutbtn
+{
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+a.logoutbtn:hover
+{
+  text-decoration: none;
+  color: rgb(123, 198, 217);
+  margin-left: 10px;
+}
+
+#adminarea
+{
+  display: flex;
+  
+}
+
+#adminMenu
+{
+  width: 15%;
+}
+#adminRightData
+{
+  width: 85%;
+}
+
+#admindata{
+  padding: 10px;
+  /* background-color: rgb(40, 46, 143); */
+   background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.logoutbtn{
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+#adminRightdata{
+  margin-left: 150px;
+}
+
+#userdisplaylogin{
+  padding: 10px;
+  background-color: aliceblue;
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#userDashboardData{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+#userleftmenu{
+  width: 20%;
+  padding-top: 20px;
+}
+
+#userrightmenu{
+  width: 80%;
+}
+
+.admin-dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.sidebar p {
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sidebar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+.main-content {
+   flex: 1;
+  /* padding: 10px; */
+  background-color: #ecf0f1;
+  overflow-y: auto;
+}
+
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+/* .main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f6f8;
+} */
+
+/* Optional: Make header and footer fixed */
+header, footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px;
+}
+
+header {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+
+.user-dashboard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.user-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.user-info {
+  font-size: 1rem;
+}
+
+.user-sidebar {
+  width: 220px;
+  border-right: 1px solid #dee2e6;
+}
+
+.user-content {
+  background-color: #ffffff;
+  min-height: calc(100vh - 70px);
+}
+
+
+/* Full page center */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #2c3e50;
+}
+
+/* Box styling */
+.login-box {
+  background: #fff;
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  border: 1px solid #ddd;
+}
+
+/* Title */
+.login-title {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Input groups */
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+}
+
+/* Submit button */
+.btn-submit {
+  width: 100%;
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  background: #0056b3;
+}
+
+
+
+.user-dashboard {
+  background: #2c3e50;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-body {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.user-sidebar {
+  width: 250px;
+  background: #34495e;
+  padding: 20px;
+  color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 2px solid #2c3e50;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f1c40f;
+}
+
+.sidebar-link {
+  color: #ecf0f1 !important;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar-link:hover {
+  background: #1abc9c;
+  color: #fff !important;
+}
+
+/* User Info */
+.user-info {
+  margin-top: auto;
+  font-size: 0.9rem;
+  background: #2c3e50;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Content */
+.user-content {
+  flex-grow: 1;
+  padding: 10px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  overflow-y: auto;
+}
+
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-sidebar {
+  width: 250px;
+  background: #343a40;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-header h3 {
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sidebar-link {
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.sidebar-link:hover {
+  background: #495057;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar-user-info {
+  margin-top: auto;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.logout-btn {
+  margin-top: 10px;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background: white;
+  overflow-y: auto;
+}
